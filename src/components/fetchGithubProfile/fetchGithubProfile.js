@@ -28,14 +28,11 @@ function GithubProfile() {
                 <h4><span>website:</span> {userData.blog}</h4>
                 <h4><span>location:</span> {userData.location}</h4>
                 
-                <div className="github-link">
-                <img src='/images/github.svg' className="Github-logo slide-bottom" alt="gihub-logo" />
-                <a href={userData.html_url} rel="noreferrer" target="_blank"></a>
+                <div className="github-link slide-bottom">
+                    <img src='/images/github.svg' className="Github-logo" alt="gihub-logo" />
+                    <a href={userData.html_url} rel="noreferrer" target="_blank"></a>
                 </div>
             </div>
-            {/* <p>Click the button to generate a random number (up to 100).</p>
-            <h2>{number}</h2>
-            <button onClick={handleNumChange}>New Number</button> */}
         </div>
     )
 }
