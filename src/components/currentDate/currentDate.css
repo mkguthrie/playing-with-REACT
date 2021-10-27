@@ -1,0 +1,16 @@
+.dateComponent {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    text-align: center;
+}
+
+.dateComponent span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dateComponent p {
+    font-size: 12px;
+    margin: 5px;
+}
