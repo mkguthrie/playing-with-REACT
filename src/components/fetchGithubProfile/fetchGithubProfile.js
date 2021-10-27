@@ -30,7 +30,7 @@ function GithubProfile() {
                 
                 <div className="github-link slide-bottom">
                     <img src='/images/github.svg' className="Github-logo" alt="gihub-logo" />
-                    <a href={userData.html_url} rel="noreferrer" target="_blank"></a>
+                    {/* <a href={userData.html_url} rel="noreferrer" target="_blank"></a> */}
                 </div>
             </div>
         </div>
