@@ -27,7 +27,7 @@ function GithubProfile() {
                 <h4><span>name:</span> {userData.name}</h4>
                 <h4><span>website:</span> {userData.blog}</h4>
                 <h4><span>location:</span> {userData.location}</h4>
-                <a href={userData.html_url} rel="noreferrer" target="_blank">Github</a>
+                {/* <a href={userData.html_url} rel="noreferrer" target="_blank">Github</a> */}
             </div>
             {/* <p>Click the button to generate a random number (up to 100).</p>
             <h2>{number}</h2>
