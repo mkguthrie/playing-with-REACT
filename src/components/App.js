@@ -2,6 +2,7 @@
 import './App.css';
 import RandomNum from '../components/randomNumber/randomNumber.js';
 import CurrentDate from './currentDate/currentDate';
+import GithubProfile from './fetchGithubProfile/fetchGithubProfile';
 
 function App() {
   return (
@@ -15,9 +16,15 @@ function App() {
           <CurrentDate />
         </div>
       </header>
-      <div>
-        <RandomNum />
+      <div className="App-contents">
+        <div>
+          <RandomNum />
+        </div>
+        <div>
+          <GithubProfile />
+        </div>
       </div>
+      
     </div>
   );
 }
