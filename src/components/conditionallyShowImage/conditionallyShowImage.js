@@ -3,7 +3,7 @@ import { useState } from "react";
 function ConditionalImage() {
     const [imageEvent, setShowImg] = useState(true)
 
-    console.log(imageEvent)
+    // console.log(imageEvent)
 
     return (
         <>

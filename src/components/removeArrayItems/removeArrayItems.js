@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 
-function RemoveArrayItem() {
+function RemoveArrayItem({ title, subtitle }) {
     const [books, setBooks] = useState([
         {title: 'Book One', id: 1},
         {title: 'Book Two', id: 2},
@@ -18,13 +18,13 @@ function RemoveArrayItem() {
 
     return (
         <div>
-            <h3>Remove Array Items Component</h3>
-            <p>Updating state when dependent on previous state.</p>
+            <h3>{title}</h3>
+            <p>{subtitle}</p>
             {books.map((book, index) => (
-                <div key={book.id}>
+                <React.Fragment key={book.id}>
                     <h2>{index} - {book.title}</h2>
                     <button onClick={() => handleDeleteBookClick(book.id)}>Delete Book</button>
-                </div>
+                </React.Fragment>
             ))}
         </div>
     )
