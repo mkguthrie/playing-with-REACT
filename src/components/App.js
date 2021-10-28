@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src='/images/logo.svg' className="App-logo" alt="logo" />
-        <p>
+        <img src='/images/logo.svg' className="App-logo text-focus-in" alt="logo" />
+        <p className="text-focus-in">
           Playing with React.
         </p>
         <div>
