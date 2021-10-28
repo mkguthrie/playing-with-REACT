@@ -10,6 +10,9 @@
 .App-contents {
   /* margin: 1em 0; */
   display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .App-contents > div {
@@ -17,7 +20,7 @@
   border: 1px solid #f5f5f5;
   box-shadow: 0 0 5px #f5f5f5;
   margin: 1em;
-  flex: 1;
+  width: 300px;
   text-align: center;
 }
 

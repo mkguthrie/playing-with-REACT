@@ -3,6 +3,8 @@ import './App.css';
 import RandomNum from '../components/randomNumber/randomNumber.js';
 import CurrentDate from './currentDate/currentDate';
 import GithubProfile from './fetchGithubProfile/fetchGithubProfile';
+import RemoveArrayItem from './removeArrayItems/removeArrayItems';
+import ConditionalImage from './conditionallyShowImage/conditionallyShowImage';
 
 function App() {
   return (
@@ -22,6 +24,12 @@ function App() {
         </div>
         <div className='slide-bottom'>
           <GithubProfile />
+        </div>
+        <div className='slide-bottom'>
+          <RemoveArrayItem />
+        </div>
+        <div className='slide-bottom'>
+          <ConditionalImage />
         </div>
       </div>
       
