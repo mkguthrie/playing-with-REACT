@@ -17,10 +17,10 @@ function App() {
         </div>
       </header>
       <div className="App-contents">
-        <div>
+        <div className='slide-bottom'>
           <RandomNum />
         </div>
-        <div>
+        <div className='slide-bottom'>
           <GithubProfile />
         </div>
       </div>
