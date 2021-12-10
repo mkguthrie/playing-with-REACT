@@ -1,8 +1,9 @@
+import ReactDOM from 'react-dom'
 import './Modal.css'
 
 export default function Modal({show, close, title}) {
     
-    return (
+    return ReactDOM.createPortal((
         <>
         {
             show ?
@@ -17,5 +18,5 @@ export default function Modal({show, close, title}) {
         }
         </>
         
-    )
+    ), document.body)
 }

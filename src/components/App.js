@@ -34,6 +34,7 @@ function App() {
           <GithubProfile />
         </div>
         <div className='slide-bottom'>
+          // Passing two props into component
           <RemoveArrayItem title="Remove Array Items Component" subtitle="Updating state when dependent on previous state." />
         </div>
         <div className='slide-bottom'>

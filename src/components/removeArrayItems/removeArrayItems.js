@@ -9,6 +9,8 @@ function RemoveArrayItem({ title, subtitle }) {
 
     const handleDeleteBookClick = (id) => {
         console.log(id)
+        // callback function to access previous state
+        // use when state update depends on previous state
         setBooks((prevBooks) => {
             return prevBooks.filter((book) => {
                 return id !== book.id
